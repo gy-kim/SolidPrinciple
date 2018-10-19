@@ -8,6 +8,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		.gitignore = .gitignore
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OCPTest", "OCPTest\OCPTest.csproj", "{4EAD768C-6A43-4C9F-B55D-1644427B3B1D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +20,9 @@ Global
 		{3390CD16-5325-4342-B52C-0A3B7F7A868F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3390CD16-5325-4342-B52C-0A3B7F7A868F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3390CD16-5325-4342-B52C-0A3B7F7A868F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4EAD768C-6A43-4C9F-B55D-1644427B3B1D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4EAD768C-6A43-4C9F-B55D-1644427B3B1D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4EAD768C-6A43-4C9F-B55D-1644427B3B1D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4EAD768C-6A43-4C9F-B55D-1644427B3B1D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

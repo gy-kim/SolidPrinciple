@@ -5,6 +5,7 @@ using OCP.Model;
 
 namespace OCPTest.Model
 {
+    [Trait("Category", "OCP_Cart")]
     public class CartShould
     {
         private readonly ITestOutputHelper _output;
@@ -27,6 +28,13 @@ namespace OCPTest.Model
         {
             _sut.Add(new OrderItem() { Quantity = 1, Sku = "EACH_WIDGET" });
             Assert.Equal(5.0m, _sut.TotalAmount());
+        }
+
+        [Fact]
+        public void TwoWithHalfKiloWeightItem()
+        {
+            this._sut.Add(new OrderItem { Quantity = 500, Sku = "WEIGHT_PEANUTS" });
+            Assert.Equal(2m, _sut.TotalAmount());
         }
     }
 }

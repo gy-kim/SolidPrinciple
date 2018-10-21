@@ -13,7 +13,8 @@ namespace OCP.Model
             _pricingRules = new List<IPriceRule>();
             _pricingRules.Add(new EachPriceRule());
             _pricingRules.Add(new PerGramPriceRule());
-            _pricingRules.Add(new SpecialPriceRule());
+            _pricingRules.Add(new SpecialPriceRule()); 
+            _pricingRules.Add(new Buy4GetOneFree());
         }
 
         public decimal CalculatePrice(OrderItem item)

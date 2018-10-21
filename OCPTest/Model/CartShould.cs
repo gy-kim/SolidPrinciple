@@ -36,5 +36,19 @@ namespace OCPTest.Model
             this._sut.Add(new OrderItem { Quantity = 500, Sku = "WEIGHT_PEANUTS" });
             Assert.Equal(2m, _sut.TotalAmount());
         }
+
+        [Fact]
+        public void EightyCentsWithTwoSpecialItem()
+        {
+            this._sut.Add(new OrderItem { Quantity = 2, Sku = "SPECIAL_CANDYBAR" });
+            Assert.Equal(0.80m, _sut.TotalAmount());
+        }
+
+        [Fact]
+        public void TwoDollarsWithSixSpecialItem()
+        {
+            this._sut.Add(new OrderItem { Quantity = 6, Sku = "SPECIAL_CANDYBAR" });
+            Assert.Equal(2m, _sut.TotalAmount());
+        }
     }
 }

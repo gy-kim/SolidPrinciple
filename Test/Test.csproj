@@ -19,6 +19,7 @@
   <ItemGroup>
     <Folder Include="OCP\" />
     <Folder Include="OCP\Model\" />
+    <Folder Include="LSP\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\OCP\OCP.csproj" />

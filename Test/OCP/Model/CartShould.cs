@@ -3,7 +3,7 @@ using Xunit;
 using Xunit.Abstractions;
 using OCP.Model;
 
-namespace OCPTest.Model
+namespace Test.OCP.Model
 {
     [Trait("Category", "OCP_Cart")]
     public class CartShould

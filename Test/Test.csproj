@@ -21,9 +21,13 @@
     <Folder Include="OCP\Model\" />
     <Folder Include="LSP\" />
     <Folder Include="New Folder\" />
+    <Folder Include="DIP\" />
+    <Folder Include="DIP\Model\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\OCP\OCP.csproj" />
     <ProjectReference Include="..\LSP\LSP.csproj" />
+    <ProjectReference Include="..\DIP\DIP.csproj" />
+    <ProjectReference Include="..\ISP\ISP.csproj" />
   </ItemGroup>
 </Project>

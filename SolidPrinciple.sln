@@ -14,6 +14,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test", "Test\Test.csproj", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ISP", "ISP\ISP.csproj", "{91B33C34-F0D4-47CE-9F3B-6E0485AAA306}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DIP", "DIP\DIP.csproj", "{3B04D9D4-7451-45B7-8E86-CF9C91626F04}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -36,5 +38,9 @@ Global
 		{91B33C34-F0D4-47CE-9F3B-6E0485AAA306}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{91B33C34-F0D4-47CE-9F3B-6E0485AAA306}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{91B33C34-F0D4-47CE-9F3B-6E0485AAA306}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3B04D9D4-7451-45B7-8E86-CF9C91626F04}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B04D9D4-7451-45B7-8E86-CF9C91626F04}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B04D9D4-7451-45B7-8E86-CF9C91626F04}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B04D9D4-7451-45B7-8E86-CF9C91626F04}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

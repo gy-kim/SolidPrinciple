@@ -5,6 +5,6 @@ namespace DIP.Interfaces
 {
     public interface IPaymentProcessor
     {
-        void ProcessCreditCard(PaymentDetail paymentDetails, decimal amount);
+        void ProcessCreditCard(PaymentDetails paymentDetails, decimal amount);
     }
 }

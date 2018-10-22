@@ -7,7 +7,7 @@ namespace DIP.Model
         CreditCard
     }
 
-    public class PaymentDetail
+    public class PaymentDetails
     {
         public PaymentMethod PaymentMethod { get; set; }
 

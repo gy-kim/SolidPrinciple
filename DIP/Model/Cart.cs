@@ -7,6 +7,7 @@ namespace DIP.Model
     {
         public decimal TotalAmount { get; set; }
         public IEnumerable<OrderItem> Items { get; set; }
+        public string CustomerEmail { get; set; }
         public Cart()
         {
             this.Items = new List<OrderItem>();

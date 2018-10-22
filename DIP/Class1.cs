@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace ISP
+namespace DIP
 {
     public class Class1
     {
